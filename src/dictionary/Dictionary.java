@@ -1,4 +1,5 @@
 package dictionary;// the name of the package
+
 //imported ArrayList,after adding it
 
 import java.util.ArrayList;
@@ -34,7 +35,7 @@ public class Dictionary {
 		int index = words.indexOf(new Word(wordToSearch));// using the method
 															// indexOf to search
 															// the word
-		if (index == -1)// -1 means not found result in Java
+		if (index == -1) // -1 means not found result in Java
 			return (null);// null=nothing
 		else
 			return (words.get(index));// returns the word, which is on the

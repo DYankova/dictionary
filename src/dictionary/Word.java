@@ -49,8 +49,7 @@ public class Word {
 	// method
 	@Override
 	public String toString() {
-		return "Word [word=" + word + ", definition=" + definition
-				+ ", examples=" + examples + "]";
+		return "Word [word=" + word + ", definition=" + definition + ", examples=" + examples + "]";
 	}
 
 	// Using hashcode(source) to compare objects
